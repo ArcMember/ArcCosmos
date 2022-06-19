@@ -1,0 +1,6 @@
+[book]
+authors = ["Arc"]
+language = "en"
+multilingual = true
+src = "src"
+title = "Cosmos of Ark"
