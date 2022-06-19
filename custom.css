@@ -1,0 +1,65 @@
+@font-face {
+    font-family: bookAntiqua;
+    src: url(src/assets/fonts/BKANT.TTF);
+}
+@font-face {
+    font-family: bookAntiquaBlack;
+    src: url(src/assets/fonts/ANTQUAB.TTF);
+}
+@font-face {
+    font-family: bookAntiquaBlackItalic;
+    src: url(src/assets/fonts/ANTQUABI.TTF);
+}
+@font-face {
+    font-family: bookAntiquaItalic;
+    src: url(src/assets/fonts/ANTQUAI.TTF);
+}
+
+
+.main-menu-el {
+    font-family: bookAntiqua;
+}
+
+.main-menu-text {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    transition: 0.1s;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-menu-text:link {
+    color: rgb(212, 142, 84);
+    background: -webkit-linear-gradient(rgb(212, 142, 84) 50%, rgba(2,0,36,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-menu-text:hover {
+    color: rgb(212, 142, 84);
+    background: rgb(212, 142, 84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}  
+
+
+.main-menu-desc {
+    color: rgb(199, 148, 107);
+    background: -webkit-linear-gradient(rgb(199, 148, 107) 50%, rgba(2,0,36,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-menu-text {
+        font-size: 32px;
+    }
+    .main-menu-desc {
+        font-size: 18px;
+    }
+  }

@@ -1,4 +1,16 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
-- [Chapter 2](./chapter_2.md)
+- [Меню](./menu.md)
+  - [Руководство](./menu/manual.md)
+    - [Быстрый старт](./menu/manual/quick-start.md)
+    - [О ролевой](./menu/manual/about.md)
+    - [Правила](./menu/manual/rules.md)
+    - [Шаблоны](./menu/manual/templates.md)
+  - [Путеводитель](./menu/guidebook.md)
+  - [Магия](./menu/magic.md)
+  - [Навыки](./menu/skills.md)
+  - [История](./menu/history.md)
+  - [Сюжет](./menu/plot.md)
+  - [Навигация](./menu/navigation.md)
+  - [Экономика](./menu/economy.md)
+  - [Персонажи](./menu/characters.md)

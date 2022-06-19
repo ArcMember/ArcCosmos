@@ -1,6 +1,12 @@
 [book]
 authors = ["Arc"]
-language = "en"
-multilingual = true
+language = "ru"
+multilingual = false
 src = "src"
-title = "Cosmos of Ark"
+title = "Злорадство Нихерии"
+
+[build]
+build-dir = "docs"
+
+[output.html]
+additional-css = ["custom.css"]
